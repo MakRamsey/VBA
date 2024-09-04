@@ -1,6 +1,5 @@
 Sub RunStockAnalysisForAllSheets()
 'Provide an optional Macro to allow user to run the Stock Analysis Macro below on all sheets at once
-'ATTENTION: Some of the following code was generated with assistance from Microsoft.com tutorials
 
     'Set variable to hold # of worksheets within workbook
     Dim SHEET As Worksheet
@@ -44,11 +43,6 @@ Sub StockAnalysis()
     Columns("I:Q").EntireColumn.AutoFit
 
 'MAIN CALCULATION LOOP
-
-'ATTENTION: Aspects of the following code were generated with help from Academic Tutor and Xpert Learning Assistant
-'ATTENTION: Aspects of the following code were generated with help from Academic Tutor and Xpert Learning Assistant
-'ATTENTION: Code was cooperatively worked on and discussed with Data Science Classmates
-'ATTENTION: Code was cooperatively worked on and discussed with Data Science Classmates
 
     'Declaration of variables
     Dim LastRow As Long
