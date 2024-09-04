@@ -1,5 +1,14 @@
-# Module_2_Challenge_Submission
+# Visual Basics for Applications (VBA)
 
-Greetings! Please see the included files (Sheet 1, Sheet 2 & Sheet 3 Excel screenshots as well as a .vbs file containing the VBA code) for the Module 2 Challenge submission. In this challenge we utilized a dataset that contained daily stock ticker information and created a VBA script for associated analysis output (Unique Ticker Names, Yearly Change, Percent Change, Total Stock Volume, Greatest % Increase, Greatest % Decrease and Greatest Total Volume).
+Greetings,
+
+Welcome to the VBA-Scripting repository! Within this project, VBA Scripting was used to both analyze and aggregate generated stock market data into indivudal annual stock Ticker summary statistics/metrics ('Ticker Name', 'Yearly Change', 'Percentage Change' and 'Total Stock Volume'). The raw data included daily reported values corresponding to a specific stock's 'date', 'open', 'high', 'low', 'close' and 'vol' (volume). The initial input .xlsx file contained this raw data across three separate sheets, each corresponding to a different year (2018, 2019 & 2020). The VBA script reads the incoming .xlsx file and subsequenlty generates the desired aggregates for every stock ticker included across all three sheets. Global metrics for each sheet were calculated in order to identify which stock represents the 'Greatest % Increase', 'Greatest % Decrease' and 'Greatest Total Volume'. Conditional formatting was also applied to highlight positive delta as green and a negative delta as red.
+
+
+**Repository Structure:**
+
+- 'Resource' directory: Contains raw generated stock market data ("Multiple_year_stock_data.xlsx")
+- 'Result_Output' directory: Includes three .png files that depict the VBA script's results upon execution for each sheet
+- 'VBA_Scripting.vbs': Executed VBA Scripting
 
 Thank you!
