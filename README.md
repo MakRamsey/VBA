@@ -9,6 +9,6 @@ Welcome to the VBA-Scripting repository! Within this project, VBA Scripting was 
 
 - 'Resource' directory: Contains raw generated stock market data ("Multiple_year_stock_data.xlsx")
 - 'Result_Output' directory: Includes three .png files that depict the VBA script's results upon execution for each sheet
-- 'VBA_Scripting.vbs': Executed VBA Scripting
+- 'VBA_Scripting.vba': Executed VBA Scripting
 
 Thank you!
